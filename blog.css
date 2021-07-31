@@ -1,0 +1,180 @@
+body {
+    background-color: #fffcee;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-family: 'Permanent Marker', cursive;
+    text-shadow: 3px 3px 4px #30dbcb;
+    font-size: 2em;
+}
+
+.header {
+    display: flex;
+}
+
+.create {
+    margin: 37px 0px 0px 855px;
+    padding: 13px 31px 9px 23px;
+    cursor: pointer;
+    background-color: #f7e117;
+    border-radius: 23px;
+}
+
+.create:hover,
+.btn:hover {
+    background-color: red;
+    color: white;
+}
+
+h3 {
+    text-shadow: 2px 2px 4px #db21a2;
+}
+
+h4.hh {
+    font-family: 'Dancing Script', cursive;
+    display: flex;
+    flex-direction: column-reverse;
+    position: absolute;
+    top: 56px;
+    left: 98px;
+}
+
+.navbar {
+    border: 4px solid black;
+    border-radius: 1.8em;
+    background-color: #ff9800;
+}
+
+.navigation {
+    font-family: cursive;
+    display: flex;
+    list-style: none;
+    margin: 3px 2px;
+}
+
+li {
+    padding: 12px 13px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+ul li a:hover {
+    border: 2px solid rgb(228, 146, 201);
+    border-radius: 15px;
+    padding: 5px 7px 7px 5px;
+    color: rgb(170, 19, 44);
+    background-color: rgba(255, 255, 255, 0.829);
+}
+
+h3 {
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container-1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container-2 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 80px;
+}
+
+.im {
+    cursor: pointer;
+}
+
+#im-3,
+#im-4,
+#im-5 {
+    height: 700px;
+    width: 500px;
+}
+
+p.p1 {
+    font-size: 3em;
+    font-family: 'Dancing Script', cursive;
+    text-shadow: 2px 2px 3px salmon;
+}
+
+p.p2 {
+    font-size: 3em;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Permanent Marker', cursive;
+    text-shadow: 2px 3px 3px #ff9f24;
+}
+
+p.p3 {
+    font-size: 3em;
+    font-family: 'Monoton', cursive;
+    text-shadow: 2px 2px 2px goldenrod
+}
+
+h4.hh2 {
+    font-size: 2em;
+    text-shadow: 2px 3px 3px #157c5b;
+}
+
+.para {
+    font-family: cursive;
+    font-size: 1.7em;
+    box-shadow: inset 3px 154px #8080801c;
+    text-shadow: 2px 3px 4px #607d8b;
+    color: rgb(235, 124, 124);
+}
+
+#im-6 {
+    display: flex;
+}
+
+#im-5,
+#im-7,
+#im-8 {
+    display: flex;
+    margin-top: 35px;
+    text-shadow: 2px 3px 4px rgba(179, 16, 16, 0.747);
+}
+
+p.p4 {
+    font-size: 5em;
+    font-family: 'Dancing Script', cursive;
+    text-shadow: 2px 3px 4px violet;
+}
+
+p.p5 {
+    font-size: 3em;
+    font-family: 'Monoton', cursive;
+}
+
+p.p6 {
+    font-size: 4em;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Permanent Marker', cursive;
+}
+
+p.p7 {
+    font-size: 1.8em;
+}
+
+img.nis {
+    border-radius: 50%;
+    border: 4px solid red;
+}
+
+.btn {
+    padding: 16px 56px;
+    background-color: #dce76f;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+
+}

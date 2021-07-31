@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Life Form</title>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<style>
+    .heading {
+        text-align: center;
+        font-family: 'Pacifico', cursive;
+        text-shadow: 2px 2px 3px red;
+    }
+    
+    .container {
+        text-align: center;
+        width: 411px;
+        height: 470px;
+        margin-left: 433px;
+        border: 1px solid black;
+        background: url("i1.jpg") no-repeat top left;
+        background-size: 66px 82px;
+        border-image-source: url(br.jpg);
+        border-image-width: 33px;
+        border-image-slice: 49%;
+        border-image-repeat: repeat;
+        border-image-outset: 25px;
+        background-color: #4040400a;
+    }
+    
+    div .input {
+        position: relative;
+        top: 71px;
+        padding: 20px;
+    }
+    
+    .infor {
+        padding: 8px 48px 8px 19px;
+        font-family: cursive;
+        background-color: cornsilk;
+        border-color: crimson;
+    }
+    
+    .infor:focus {
+        background-color: white;
+    }
+    
+    .btn {
+        padding: 13px 33px 11px 39px;
+        margin: 18px;
+        border-radius: 10px;
+        background-color: #9bd3f347;
+        color: #d20f72;
+        cursor: pointer;
+    }
+    
+    .btn:hover {
+        background-color: red;
+        color: white;
+    }
+    
+    #bt2:hover {
+        background-color: green;
+    }
+</style>
+
+<body>
+    <h1 class="heading">The Daily Life</h1>
+    <h2 class="heading">Sign up and Join here to get your latest updates</h2>
+    <div class="container">
+        <form action="xyz.php">
+            <div class="input">
+                <input type="text" class="infor" id="name" placeholder="enter your name"></div>
+            <div class="input">
+                <input type="email" class="infor" id="email" placeholder="enter your email">
+            </div>
+            <div class="input">
+                <input type="password" class="infor" id="psw" placeholder="enter your password">
+            </div>
+            <div class="input">
+                <button type="submit" class="btn" id="bt1">Sign Up</button>
+                <button type="submit" class="btn" id="bt2">Log In</button>
+
+            </div>
+
+        </form>
+
+    </div>
+</body>
+
+</html>
